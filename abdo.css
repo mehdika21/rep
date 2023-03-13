@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-family: var(--body_typography-font-family);
+    
+}
+section{
+    background: url("background-1.png");
+    background-size: cover;
+}
+nav{
+    background-color: #f8f8f8;
+    height: 80px;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav h1{
+    display: inline-block;
+    padding: 20px 5px;
+    margin-left: 60px;
+    font-weight: bolder;
+}
+nav h3{
+    display: inline-block;
+    padding: 20px 5px;
+}
+nav ul{
+    float: right;
+    margin-right: 80px;
+}
+nav li{
+    display: inline-block;
+    padding: 22px 40px;
+}
+nav li a{
+    color: #0088a9 ;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+ul li a:hover{
+    background-color: #e0dfdf;
+    border-bottom: #0088a9 solid 3px;
+    padding-bottom: 29px;
+    padding: 11px;
+    padding-top: 31px;
+    padding-bottom: 29px;
+    border-radius: 6%;
+} 
+nav .img{
+    margin-top: 20px;
+    padding: 40px 20px;
+}
+ul li .post:hover{
+    border-bottom: inherit;
+    background-color:#018179;
+    color:white;
+    padding: 15px;
+    border-radius: 5%;
+}
+.abd  {
+
+    font-weight: bold;
+    padding: 10px 30px;
+    background-color: #018179;
+    border: none;
+    color: whitesmoke;
+    border-radius: 40px;
+    cursor: pointer;
+    transition:  0.2s ;
+
+}
+.abd:hover{
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 40px;
+    
+    color:#018179;
+background-color: whitesmoke;
+    transform: scale(1.01);
+}
+.title{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    font-size: 2.2em;
+    color: #0088a9;
+    
+}
+
+.sports{
+    background-color: #181d2b;
+}
+
+.content{
+    margin: 10px;
+}
+div .card{
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+}
+.card{
+
+    background-color: rgb(231, 225, 225);
+    border: 1px solid black;
+    min-height: 14em;
+    
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+
+.sports_img img{
+    width: 100%;
+    max-height: 15em;
+     
+}
+.title h2{
+    background-color: #127796;
+
+}
+.tt{
+    transition: 0.2s;
+     background-color: rgb(231, 225, 225);
+  
+}
+.tt h2{
+    display: inline-block;
+    border: solid  3px #181d2b;
+    margin-left: 130px;
+    margin-top: 5px;
+    background-color: rgb(231, 225, 225);
+    border-radius: 20px;
+    padding: 7px;
+    font-size: 18px;
+    color: #181d2b;
+    transition: 0.2s;
+}
+.tt h2:hover{
+    color: rgb(231, 225, 225);
+    background-color: #181d2b;
+}
+
